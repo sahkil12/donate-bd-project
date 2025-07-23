@@ -27,7 +27,7 @@ document.getElementById('donate-btn').addEventListener('click', function () {
 })
 
 
-// -----
+// -----    
 
 const blogBtn = document.getElementById('blog-page-btn')
 if (blogBtn) {
@@ -39,22 +39,5 @@ if (blogBtn) {
         window.location.href = "./blog.html";
     });
 
-
 }
 
-
-// const homeBtn = document.getElementById('home-page-btn');
-// if (homeBtn) {
-
-//     homeBtn.addEventListener('click', function (e) {
-//         e.preventDefault();
-
-//         console.log('yes ')
-
-//         window.location.href = "./index.html";
-        
-//     })
-
-
-
-// }
